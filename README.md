@@ -14,10 +14,26 @@ To write a program to prepare EMI calculator using function without return type 
 6.	Stop the program.
 
 ## PROGRAM
+```
 
+#include <stdio.h>
+#include<math.h>
+void emi(float p,float r,float t)
+{
+    float emi1=(p*r*pow(1+r,t))/(pow(1+r,t)-1);
+    printf("EMI = %.2f",emi1);
+}
+int main() {
+ float p,r,n,t,ar;
+ scanf("%f%f%f",&p,&ar,&n);
+ r=(ar/100)/12;
+ t=(n*12);
+ emi(p,r,t);
+}
+```
 
 ## OUTPUT
-
+![alt text](image.png)
 
 
 
@@ -43,9 +59,24 @@ To write a C program to generate the Fibonacci series for the value 6.
 7.	Stop the program.
 
 ## PROGRAM
+```
 
+#include <stdio.h>
+int main() {
+ int a=-1,b=1,c;
+ int n;
+ scanf("%d",&n);
+ for(int i=1;i<=n;i++)
+ {
+     c=a+b;
+     printf("%d ",c);
+     a=b;
+     b=c;
+ }
+}
+```
 ## OUTPUT
-
+![alt text](image-1.png)
 
 
 
@@ -71,9 +102,20 @@ To write a C program to read n elements as input and print the last element of t
 5.	Stop the program.
 
 ## PROGRAM
+```
 
+#include <stdio.h>
+int main() {
+ int n;
+ scanf("%d",&n);
+ int a[n];
+ for(int i=0;i<n;i++)
+ scanf("%d",&a[i]);
+ printf("Last element of array: %d",a[n-1]);
+}
+```
 ## OUTPUT
-
+![alt text](image-2.png)
 
 
 
@@ -101,10 +143,25 @@ To write a C Program to count total number of positive elements in an array.
 6.	Stop the program.
 
 ## PROGRAM
+```
 
+#include <stdio.h>
+int main() {
+ int n,count=0;
+ scanf("%d",&n);
+ int a[n];
+ for(int i=0;i<n;i++)
+ {
+ scanf("%d",&a[i]);
+ if(a[i]>0)
+ count++;
+ }
+ printf("Number of positive numbers in array are %d",count);
+}
+```
 
 ## OUTPUT
-
+![alt text](image-3.png)
 
 
 
@@ -137,10 +194,30 @@ To write a C program to replace all even elements with 'E' in one dimensional ar
  Print the updated array after replacements.
 
 ## Program:
+```
 
+#include <stdio.h>
+int main() {
+ int n,count=0;
+ scanf("%d",&n);
+ int a[n];
+ for(int i=0;i<n;i++)
+ {
+ scanf("%d",&a[i]);
+ 
+ }
+ for(int i=0;i<n;i++)
+ {
+     if(a[i]%2==0)
+ printf("E ");
+ else
+ printf("%d ",a[i]);
+}
+}
+```
 ## Output:
  
-
+![alt text](image-4.png)
 
 ## Result:
 
