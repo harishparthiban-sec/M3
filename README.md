@@ -33,7 +33,8 @@ int main() {
 ```
 
 ## OUTPUT
-![alt text](image.png)
+<img width="436" height="235" alt="image" src="https://github.com/user-attachments/assets/b38207f0-c391-4009-bd86-a63f04d038ce" />
+
 
 
 
@@ -76,7 +77,8 @@ int main() {
 }
 ```
 ## OUTPUT
-![alt text](image-1.png)
+<img width="451" height="248" alt="image" src="https://github.com/user-attachments/assets/37d69810-f592-4497-8e2c-06080b4d6ecb" />
+
 
 
 
@@ -115,7 +117,8 @@ int main() {
 }
 ```
 ## OUTPUT
-![alt text](image-2.png)
+<img width="551" height="279" alt="image" src="https://github.com/user-attachments/assets/a922d804-58a8-4f18-a83a-8528c2a01777" />
+
 
 
 
@@ -161,8 +164,7 @@ int main() {
 ```
 
 ## OUTPUT
-![alt text](image-3.png)
-
+<img width="476" height="257" alt="image" src="https://github.com/user-attachments/assets/49a9a073-acb2-4bf9-9a0c-1e4580240ded" />
 
 
 
@@ -198,7 +200,7 @@ To write a C program to replace all even elements with 'E' in one dimensional ar
 
 #include <stdio.h>
 int main() {
- int n,count=0;
+ int n;
  scanf("%d",&n);
  int a[n];
  for(int i=0;i<n;i++)
@@ -217,7 +219,7 @@ int main() {
 ```
 ## Output:
  
-![alt text](image-4.png)
+<img width="436" height="229" alt="image" src="https://github.com/user-attachments/assets/64e5470f-0b9a-4c54-93d2-8d0c70cfeb1b" />
 
 ## Result:
 
